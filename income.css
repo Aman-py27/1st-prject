@@ -1,0 +1,165 @@
+.header{
+    background-color:blue;
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+.follow{
+    color: yellow;
+    word-spacing: 2px;
+}
+a{
+    text-decoration: none;
+}
+.social{
+    height: 10px;
+}
+.so{
+    color: white;
+}
+.logo{
+    margin-top: 10px;
+    height: 80px;
+}
+.logoarea{
+    display: flex; 
+    justify-content: space-between;
+}
+.nav{
+    background-color: darkgray;
+}
+.nav li a {
+    color:rgb(209, 36, 36);
+	text-decoration:none;
+	padding: 20px;
+	font-size:larger;
+    display: inline-flex;
+	text-transform: uppercase; 
+    font-weight: bolder;
+}
+.nav li {
+	display:inline-block;
+}
+.li:hover{
+    background-color:gold;
+    border-radius: 32px;
+}
+.searcharea{
+    margin-top: 40px;
+}
+.searchtext{
+    font-size: 30px;
+    text-transform:capitalize;
+}
+.search{
+    border-radius: 32px;
+    text-transform: capitalize;
+    padding:8px;
+    width: 300px;
+    height:35px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.search::placeholder{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.dropdown{
+    margin-top: 10px;
+}
+.login{
+    text-transform: capitalize;
+    padding: 5px;
+    background-color:beige;
+    font-size: 17px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.lobut{
+    background-color: aqua;
+    text-transform: capitalize;
+    border-radius: 32px;
+    padding: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.lobut:hover{
+    background-color: gray;
+    border-color: aqua;
+    color: white;
+    transform: scale(1.2);
+}
+.bodyarea{
+    display: flex;
+    height: 400px;
+}
+.bodyimg{
+    height: 350px;
+    width: 1900px;
+    background-size: 100% 100%;
+}
+.footer{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;   
+}
+.quick{
+    border:2px solid black;
+    width: 600px;
+    padding: 15px;
+}
+.news{
+    border:2px solid black;
+    width: 800px;
+    padding: 15px;
+    cursor: pointer;
+   
+}
+.faqs{
+    border:2px solid black;
+    width:500px;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration:underline;
+    color: black;
+}
+marquee{
+    background-color: rgb(188, 188, 224);
+    color: rgb(63, 6, 58);
+}
+.footer{
+    color: blue;
+    margin-top: 25px;
+    font-size: larger;
+    
+}
+.foot{
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: rgba(126, 100, 201, 0.4);
+    color: blue;
+}
+.dis{
+    
+    border: 1px solid grey;
+    color: white;
+    width:100px;
+    margin-left: 300px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: grey;
+    padding: 5px;
+}
+.dis a{
+    color: white;
+}
+.dis:hover{
+        background-color: rgba(67, 43, 226, 0.342);
+        cursor: pointer      
+}
+

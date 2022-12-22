@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <style>
+        body{
+            background-color:rgb(75, 204, 211)
+        }
+        .input{
+            font-size: larger;
+            border-radius: 8px;
+            text-transform: capitalize;
+            padding: 9px;
+            font-weight: bolder;
+            width: 365px;
+             }
+
+             #main{
+                width: 400px;
+                border: 5px solid white;
+                background-color: white;
+                height: 600px;
+                margin-top: 60px;
+                margin-left:40%;
+                padding: 20px;
+             }
+             h1{
+                color: rgb(48, 21, 6);
+                font-size: 40px;
+             }
+             .sub{
+                font-size: larger;
+            border-radius: 8px;
+            text-transform: capitalize;
+            padding: 9px;
+            font-weight: bolder;
+             }
+             .sub:hover{
+                background-color: rgb(10, 158, 64);
+                cursor: pointer;
+                transform: scale(1.2);
+             }
+             input:hover{
+                background-color: rgba(13, 155, 155, 0.19);
+             }
+             .name{
+                width: 170px;
+                font-size: larger;
+            border-radius: 8px;
+            text-transform: capitalize;
+            padding: 9px;
+            font-weight: bolder;
+             }
+             
+    </style>
+    
+</head>
+<body>
+    <div id="main">
+        <form action="sign in.html" method="get">
+            <h1>SIGN UP</h1>
+            <h4>please fill this form to create an account.</h4>
+        <hr>
+            
+            
+         <p> <input type="text" placeholder="FIRST NAME" class="name" required></b>
+             <input type="text" placeholder="LAST NAME" class="name" required> </b></br></br>
+             <input type="email" placeholder="EMAIL" class="input" required> </b></br></br>
+             <input type="tel" placeholder="Ph.No" class="input" required maxlength="10" minlength="10"> </b></br></br>
+             <input type="password" placeholder="PASSWORD" class="input" required></b></br></br>
+             <input type="password" placeholder="CONFIRM PASSWORD" class="input" required></b></br>
+            <center><input type="checkbox" required>I accept <a href="#">term of use</a> and <a href="#">policy</a></br></br></center>
+            <center><input class="sub" type="SUBMIT" value="SIGN UP"></center></br>
+            <center>Already a User ? <a href="sign in.html">Sign In</a></center>
+        </p>
+        </div>
+        
+
+
+        </form>
+    </div>
+</body>
+</html>
